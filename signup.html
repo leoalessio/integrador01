@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/styles.css" />
+    <title>signUp</title>
+  </head>
+  <body class="signup-body">
+    <form class="form">
+      <h2 class="form-title">Hola.</h2>
+      <h3 class="form-subtitle">Que lindo verte por acá!</h3>
+      <div class="form-container">
+        <div class="form-group">
+          <input type="text" id="nombre" class="form-input" placeholder=" " />
+          <label for="nombre" class="form-label">Nombre:</label>
+          <span class="form-line"></span>
+        </div>
+        <div class="form-group">
+          <input type="mail" id="mail" placeholder=" " class="form-input" />
+          <label for="mail" class="form-label">E-mail:</label>
+          <span class="form-line"></span>
+        </div>
+        <div class="form-group">
+          <input
+            type="password"
+            id="password"
+            placeholder=" "
+            class="form-input"
+          />
+          <label for="password" class="form-label">Contraseña:</label>
+          <span class="form-line"></span>
+        </div>
+        <input
+          type="submit"
+          value="Registrarte"
+          id="submit"
+          class="form-submit"
+        />
+      </div>
+      <p class="form-p">¿Ya tienes una cuenta?</p>
+      <a href="./login.html" class="form-link">Ingresar</a>
+      <p class="form-p">¿No tenés cuenta y no querés registrarte?</p>
+      <a href="./index.html" class="form-link">Ingresar cómo invitado</a>
+    </form>
+  </body>
+</html>
